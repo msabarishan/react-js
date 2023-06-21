@@ -1,59 +1,47 @@
 To install React.js on Ubuntu, you'll need to have Node.js and npm (Node Package Manager) installed on your system. Here's a step-by-step guide to help you get started:
 
 Update your system's package index:
-
-sql
-Copy code
 sudo apt update
+
+
 Install Node.js and npm:
-
-Copy code
 sudo apt install nodejs npm
-Verify the installation by checking the Node.js and npm versions:
 
-Copy code
+Verify the installation by checking the Node.js and npm versions:
 node -v
 npm -v
 
 Create a new directory for your React.js project:
-
-bash
-Copy code
 mkdir react-app
 cd react-app
+
 Initialize a new npm project:
-
-csharp
-Copy code
 npm init -y
+
+
 Install React and React DOM packages:
-
-Copy code
 npm install react react-dom
-Install Create React App globally (optional):
 
+Install Create React App globally (optional):
 lua
-Copy code
+
 sudo npm install -g create-react-app
+
 Installing Create React App globally allows you to quickly scaffold new React.js projects. You can skip this step if you prefer to use npx instead.
 
 Create a new React.js project:
-
 lua
-Copy code
+
 npx create-react-app my-react-app
+
 Replace "my-react-app" with the desired name for your project.
 
 Change into the project directory:
-
-bash
-Copy code
 cd my-react-app
-Start the development server:
 
-sql
-Copy code
+Start the development server:
 npm start
+
 This command will compile your React.js code and launch a development server. You can access your React application by opening your browser and visiting http://localhost:3000.
 
 That's it! You have successfully installed React.js and created a new React application on your Ubuntu system. Now you can start building your React components and explore the wonderful world of React.js development.
