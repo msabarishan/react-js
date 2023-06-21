@@ -27,6 +27,9 @@ lua
 
 sudo npm install -g create-react-app
 
+Creating new app:
+create-react-app tecmint-app
+
 Installing Create React App globally allows you to quickly scaffold new React.js projects. You can skip this step if you prefer to use npx instead.
 
 Create a new React.js project:
