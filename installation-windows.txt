@@ -1,1 +1,7 @@
+Install Node.js
+npm install -g create-react-app
+create-react-app --version
+create-react-app reactfirst YOUR_APP_NAME
+npm start
 
+---Note: npx create-react-app app_name -- may not work sometimes
